@@ -14,15 +14,15 @@ models_folder = ['centernet_hg104_512x512_coco17_tpu-8',
                  'efficientdet_d0_coco17_tpu-32']
 models_folder = [c.rsplit('.tar', 1)[0] for c in models_folder]
 
-labelmap_path = "/home/ubuntu/dissertacao/data/images/labelmap.pbtxt"
-train_record_path = "/home/ubuntu/dissertacao/data/images/train.record"
-test_record_path = "/home/ubuntu/dissertacao/data/images/test.record"
+labelmap_path = "/content/dissertacao/data/images/labelmap.pbtxt"
+train_record_path = "/content/dissertacao/data/images/train.record"
+test_record_path = "/content/dissertacao/data/images/test.record"
 num_classes = 1 
 batch_size = 8
 num_steps = 8000
 
 for config_file, config_folder in zip(config_list, models_folder):
-  fine_tune_checkpoint = "/home/ubuntu/dissertacao/models/pretrained/" + config_folder + "/checkpoint/ckpt-0"
+  fine_tune_checkpoint = "/content/dissertacao/models/pretrained/" + config_folder + "/checkpoint/ckpt-0"
 
   with open(path + config_file) as f:
     config = f.read()
