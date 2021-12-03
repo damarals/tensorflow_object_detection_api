@@ -42,7 +42,7 @@ for config_file, config_folder in zip(config_list, models_folder):
                     'input_path: "{}"'.format(train_record_path), config)
     
     # Set test tf-record file path
-    config = re.sub('(input_path: ".*?)(        PATH_TO_BE_CONFIGURED/val)(.*?")', 
+    config = re.sub('(input_path: ".*?)(PATH_TO_BE_CONFIGURED/val)(.*?")', 
                     'input_path: "{}"'.format(test_record_path), config)
     
     # Set number of classes.
