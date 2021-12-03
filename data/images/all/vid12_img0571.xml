@@ -1,0 +1,26 @@
+<annotation>
+	<folder>frames</folder>
+	<filename>vid12_img0571.jpg</filename>
+	<path>C:\Users\danie\Google Drive\Pesquisa\Artigo Imagens\videos\frames\vid12_img0571.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pollen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>84</xmin>
+			<ymin>391</ymin>
+			<xmax>205</xmax>
+			<ymax>549</ymax>
+		</bndbox>
+	</object>
+</annotation>

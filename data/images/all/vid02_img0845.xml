@@ -1,7 +1,7 @@
 <annotation>
-	<folder>all</folder>
+	<folder>frames</folder>
 	<filename>vid02_img0845.jpg</filename>
-	<path>C:\Users\danie\Desktop\dissertacao\data\images\all\vid02_img0845.jpg</path>
+	<path>C:\Users\danie\Google Drive\Pesquisa\Artigo Imagens\videos\frames\vid02_img0845.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -14,13 +14,13 @@
 	<object>
 		<name>pollen</name>
 		<pose>Unspecified</pose>
-		<truncated>1</truncated>
+		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>1</xmin>
-			<ymin>133</ymin>
-			<xmax>290</xmax>
-			<ymax>495</ymax>
+			<xmin>5</xmin>
+			<ymin>155</ymin>
+			<xmax>305</xmax>
+			<ymax>480</ymax>
 		</bndbox>
 	</object>
 </annotation>

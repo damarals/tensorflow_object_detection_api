@@ -1,0 +1,26 @@
+<annotation>
+	<folder>frames</folder>
+	<filename>vid15_img0714.jpg</filename>
+	<path>C:\Users\danie\Google Drive\Pesquisa\Artigo Imagens\videos\frames\vid15_img0714.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pollen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>374</xmin>
+			<ymin>159</ymin>
+			<xmax>482</xmax>
+			<ymax>288</ymax>
+		</bndbox>
+	</object>
+</annotation>

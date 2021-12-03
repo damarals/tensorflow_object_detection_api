@@ -1,7 +1,7 @@
 <annotation>
-	<folder>all</folder>
+	<folder>frames</folder>
 	<filename>vid02_img0841.jpg</filename>
-	<path>C:\Users\danie\Desktop\dissertacao\data\images\all\vid02_img0841.jpg</path>
+	<path>C:\Users\danie\Google Drive\Pesquisa\Artigo Imagens\videos\frames\vid02_img0841.jpg</path>
 	<source>
 		<database>Unknown</database>
 	</source>
@@ -17,10 +17,10 @@
 		<truncated>0</truncated>
 		<difficult>0</difficult>
 		<bndbox>
-			<xmin>45</xmin>
-			<ymin>211</ymin>
-			<xmax>346</xmax>
-			<ymax>659</ymax>
+			<xmin>43</xmin>
+			<ymin>238</ymin>
+			<xmax>354</xmax>
+			<ymax>651</ymax>
 		</bndbox>
 	</object>
 </annotation>
