@@ -1,0 +1,26 @@
+<annotation>
+	<folder>all</folder>
+	<filename>vid01_img0549.jpg</filename>
+	<path>C:\Users\danie\Desktop\dissertacao\data\images\all\vid01_img0549.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1280</width>
+		<height>720</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>pollen</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>581</xmin>
+			<ymin>275</ymin>
+			<xmax>662</xmax>
+			<ymax>361</ymax>
+		</bndbox>
+	</object>
+</annotation>
