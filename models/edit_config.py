@@ -9,9 +9,11 @@ options, arguments = p.parse_args()
 path = options.models_dir + '/'
 
 config_list = ['centernet_hourglass104_512x512_coco17_tpu-8.config',
-               'ssd_efficientdet_d0_512x512_coco17_tpu-8.config']
+               'ssd_efficientdet_d0_512x512_coco17_tpu-8.config',
+               'ssd_efficientdet_d4_1024x1024_coco17_tpu-32.config']
 models_folder = ['centernet_hg104_512x512_coco17_tpu-8',
-                 'efficientdet_d0_coco17_tpu-32']
+                 'efficientdet_d0_coco17_tpu-32',
+                 'efficientdet_d4_coco17_tpu-32']
 models_folder = [c.rsplit('.tar', 1)[0] for c in models_folder]
 
 labelmap_path = "/content/dissertacao/data/images/labelmap.pbtxt"
