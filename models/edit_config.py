@@ -20,7 +20,7 @@ labelmap_path = "/content/dissertacao/data/images/labelmap.pbtxt"
 train_record_path = "/content/dissertacao/data/images/train.record"
 test_record_path = "/content/dissertacao/data/images/test.record"
 num_classes = 1 
-batch_size = 4
+batch_size = 16
 num_steps = 8000
 
 for config_file, config_folder in zip(config_list, models_folder):
