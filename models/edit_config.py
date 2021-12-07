@@ -29,7 +29,7 @@ else:
     with open(path + config_name) as f:
         config = f.read()
 
-with open(path + config_folder + '/pipeline_file.config', 'w') as f:
+with open(path + model_folder + '/pipeline_file.config', 'w') as f:
 
     # Set labelmap path
     config = re.sub('label_map_path: ".*?"', 
