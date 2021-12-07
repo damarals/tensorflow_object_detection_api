@@ -20,7 +20,7 @@ num_classes = 1
 batch_size = 8
 num_steps = 8000
 
-fine_tune_checkpoint = "/content/dissertacao/models/pretrained/" + config_folder + "/checkpoint/ckpt-0"
+fine_tune_checkpoint = "/content/dissertacao/models/pretrained/" + model_folder + "/checkpoint/ckpt-0"
 
 if config_name == 'default':
     with open(path + model_folder + '/pipeline.config') as f:
