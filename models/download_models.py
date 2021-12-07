@@ -13,6 +13,7 @@ options, arguments = p.parse_args()
 makedirs(dirname(options.model_dir + '/'), exist_ok = True)
 
 model_name = options.download_model_url
+print(model_name)
 model_name = model_name.rsplit('/', 1)[1]
 config_name = options.download_config_url
 config_name = config_name.rsplit('/', 1)[1]
