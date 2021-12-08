@@ -6,6 +6,7 @@ p = OptionParser()
 p.add_option('--models_dir')
 p.add_option('--download_model_url')
 p.add_option('--download_config_url')
+p.add_option('--batch_size')
 options, arguments = p.parse_args()
 
 path = options.models_dir + '/'
@@ -17,7 +18,7 @@ labelmap_path = "/content/dissertacao/data/images/labelmap.pbtxt"
 train_record_path = "/content/dissertacao/data/images/train.record"
 test_record_path = "/content/dissertacao/data/images/test.record"
 num_classes = 1 
-batch_size = 8
+batch_size = int(options.batch_size)
 num_steps = 8000
 
 fine_tune_checkpoint = "/content/dissertacao/models/pretrained/" + model_folder + "/checkpoint/ckpt-0"
